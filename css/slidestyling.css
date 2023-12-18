@@ -1,0 +1,45 @@
+
+/* slide bar  */
+.slide-bar{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.slide img{
+    width: 100vw;
+    height:400px;
+}
+
+
+/* arrows */
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    font-size: 54px;   
+    color: white;
+}
+
+.next{
+    right: 40px;
+
+}
+
+.prev{
+    left: 40px;
+    
+}
+
+/* caption */
+.caption{
+    position: absolute;
+    bottom: 10px;
+    /* background-color: #a8a8a833; */
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,41 @@
+/* for backgroung changing */
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.color{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#white{
+    background-color: white;
+}
+#aqua{
+    background-color: aqua;
+}
+#voilet{
+    background-color: plum;
+}
+#black{
+    background-color: black;
+}
+.colour-container{
+    text-align: right;
+    padding: 10px;
+}
+
+.font-style{
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:500px){
+    .font-style{
+        font-size: 1.2rem;
+    }
+}
+    

@@ -1,0 +1,173 @@
+
+/* navbar styling */
+.navbar{
+    background-color:#031834;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+
+/* content styling */
+.contents{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.content-link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.content-link:hover{
+    color: lightblue;
+}
+
+.content-heading{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 50px;
+}
+
+/* buttons styling */
+.button-style{
+    text-align: end;
+}
+
+.btn-style{
+    border: 1px solid blue;
+    background-color: #0099CC;
+    box-shadow: #031834 5px 5px 5px;
+}
+
+.conbtn-style{
+    background-color: #0099CC;
+    color: white;
+}
+
+/* icon styling  */
+.icon-style{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+
+@media only screen and (max-width:500px){
+    .icon-style{
+        font-size: 2.5rem;
+    }
+}
+
+.icon-style i{
+    margin-right: 20px;
+}
+
+/* copyright  */
+.copy-style{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:500px) {
+    .copy-style{
+        font-size: 1.2rem;
+    }
+}
+
+
+/* for contact.html */
+/* imgage */
+.contact-img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+
+}
+
+/* input tag  */
+
+
+.input-style{
+    margin-top: 10px;
+    padding: 10%;
+    padding-top: 0;
+}
+
+.box-style{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #adadad;
+}
+
+.box-style input{
+    padding: 0 5px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: none;   
+    outline: none;
+}
+
+.box-style textarea{
+    width: 100%;
+    border: none;
+    background: none;   
+    outline: none;
+}
+
+.box-style label{
+    font-size: 1.5rem;
+    position: absolute;
+    top:-30px;
+    left: 0px;
+    display: block;
+    color: #adadad;
+    pointer-events: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    transition: .5s;
+}
+
+.box-style input:focus ~ label{
+    top: -15px;
+    color: #adadad;
+    font-size: 0.8rem;
+}
+
+.box-style textarea:focus ~ label{
+    top: -20px;
+    color: #adadad;
+    font-size: 0.8rem;
+}
+
+/* for error message */
+.text-error{
+    color: red;
+    position: absolute;
+    top: 40px;
+}
+
+.text-areaerror{
+    color: red;
+    position: absolute;
+    bottom: -10;
+}
+
+/* post.html  */
+.post-heading{
+    text-align: center;
+    font-size: 50px;
+    color: grey;
+}
+
+.post-text{
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
